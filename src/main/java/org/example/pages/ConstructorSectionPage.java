@@ -19,9 +19,9 @@ public class ConstructorSectionPage {
     private final By buttonOfBuns = By.xpath("//div[normalize-space()='Булки']");
     private final By buttonOfSauces = By.xpath("//div[normalize-space()='Соусы']");
     private final By buttonOfFillings= By.xpath("//div[normalize-space()='Начинки']");
-    private final By tittleOfBuns = By.xpath("//h2[normalize-space()='Булки']");
-    private final By tittleOfSauce = By.xpath("//h2[normalize-space()='Соусы']");
-    private final By tittleOfFillings = By.xpath("//h2[normalize-space()='Начинки']");
+    private final By tittleOfBuns = By.xpath("//span[normalize-space()='Булки']/ancestor::div[contains(@class, 'tab_type_current')]");
+    private final By tittleOfSauce = By.xpath("//span[normalize-space()='Соусы']/ancestor::div[contains(@class, 'tab_type_current')]");
+    private final By tittleOfFillings = By.xpath("//span[normalize-space()='Начинки']/ancestor::div[contains(@class, 'tab_type_current')]");
 
 
     public ConstructorSectionPage(WebDriver driver) {

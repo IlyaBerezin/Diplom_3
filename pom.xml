@@ -72,6 +72,11 @@
             <artifactId>allure-rest-assured</artifactId>
             <version>2.27.0</version>
         </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>5.4.0</version>
+        </dependency>
 
         <!-- AspectJ Weaver: версия прописана явно -->
         <dependency>
